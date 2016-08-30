@@ -16,6 +16,8 @@ The file `main.cpp` should be the entry point to your executable that performs s
 
 Please write *clean and readable code*:
 * Use proper indentation, with spaces rather than tabs.
+* Always use curly brackets, for `if`s, `for`s, `while`s and everything else. No "orphan" statements, please.
+* Add spaces between operators, e.g. `a * b`.
 * Document methods and classes, both with inline comments and doxygen-esque documentation.
 * Use meaningful variable names. No single-character var names, please.
 * Split large functions to smaller, simpler chunks and DRY.
