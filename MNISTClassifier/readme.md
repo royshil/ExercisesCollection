@@ -26,8 +26,9 @@ Please write *clean and readable code*:
 * Add spaces between operators, e.g. `a * b`.
 * Document methods and classes, both with inline comments and doxygen-esque documentation.
 * Use meaningful variable names. No single-character var names, please.
-* Split large functions to smaller, simpler chunks and DRY.
+* Split large functions to smaller, simpler chunks and [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 * Avoid deeply nested `if`s and `for`s.
+* Prefer C++11 features, e.g. using `and` over `&&`, smart `for`s: `for (int it : vector)`, using `auto`s, etc. 
 * Do not leave code commented out.
 * Properly note the author and the date of file modification in the top of the source file.
 
