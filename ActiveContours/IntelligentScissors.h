@@ -3,6 +3,11 @@
  *
  *  Created on: Oct 6, 2016
  *      Author: roy_shilkrot
+ *
+ * This is an exercise implementation of "Intelligent Scissors":
+ * Eric N. Mortensen and William A. Barrett. 1995. Intelligent scissors for image composition.
+ * In Proceedings of the 22nd annual conference on Computer graphics and interactive techniques (SIGGRAPH '95)
+ *
  */
 
 #ifndef INTELLIGENTSCISSORS_H_
@@ -25,7 +30,7 @@ public:
 private:
 	/**
 	 * Preprocess the input image to prepare for interaction.
-	 * Hint: Calculate the zero-crossings, gradient magnitudes and gradient directions.
+	 * Hint: Calculate the zero-crossings map, gradient magnitudes and gradient directions.
 	 */
 	void preprocess();
 };

@@ -37,5 +37,7 @@ Please write *clean and readable code*:
 There is a standard `Makefile` for you to use for compiling. It assumes a Unix-like OS.
 
 [1] Kass, Michael, Andrew Witkin, and Demetri Terzopoulos. "Snakes: Active contour models." International journal of computer vision 1.4 (1988): 321-331.
+
 [2] Eric N. Mortensen and William A. Barrett. 1995. Intelligent scissors for image composition. In Proceedings of the 22nd annual conference on Computer graphics and interactive techniques (SIGGRAPH '95) http://dl.acm.org/citation.cfm?id=218442
+
 [3] GIMP plugins: http://wiki.gimp.org/wiki/Hacking:Plugins
