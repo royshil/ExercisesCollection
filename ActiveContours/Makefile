@@ -6,7 +6,7 @@
 
 TARGET_FILE     :=  IntelligentScissors
 SRC_FILES       :=  IntelligentScissors.cpp main.cpp
-LIBRARY_FILES   :=  -lopencv_core -lopencv_ml -lopencv_highgui -lopencv_imgproc
+LIBRARY_FILES   :=  -L/usr/local/lib -lopencv_core -lopencv_ml -lopencv_highgui -lopencv_imgproc
 SRC_FILE_TYPES  :=  .c .cpp
 
 FLAGS           :=  --std=c++11 -I/usr/local/include
